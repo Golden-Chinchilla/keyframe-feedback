@@ -1,0 +1,20 @@
+name: Feature request · 功能建议
+description: Something you'd like Keyframe to do. · 希望 Keyframe 能做到的事。
+labels: [feature request]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to make? · 你想做出什么？
+      description: The animation or result you're after, not only the button you want. · 想做出的动画或效果，而不只是想要的按钮。
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: What gets in the way today? · 现在卡在哪里？
+  - type: textarea
+    id: elsewhere
+    attributes:
+      label: How do other tools do it? · 别的软件怎么做？
+      description: Optional. After Effects, Moho, Spine, Blender … · 可选。After Effects、Moho、Spine、Blender 等。

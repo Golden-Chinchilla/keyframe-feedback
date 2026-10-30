@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and showing your work · 提问与分享作品
+    url: https://github.com/Golden-Chinchilla/keyframe-feedback/discussions
+    about: Ask how to do something, or share what you made. · 问怎么做，或分享你的作品。
+  - name: Documentation · 使用文档
+    url: https://www.keyframe.world/docs
+    about: How every panel and tool works. · 每个面板和工具的用法。

@@ -1,0 +1,31 @@
+name: Bug report · 问题报告
+description: Something in Keyframe doesn't work as it should. · Keyframe 里有东西不正常。
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? · 发生了什么？
+      description: What you did, what you expected, and what you saw instead. · 你做了什么、本来期望什么、实际看到了什么。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce · 复现步骤
+      placeholder: |
+        1. Open …
+        2. Click …
+        3. …
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and system · 浏览器与系统
+      placeholder: Chrome 140 on macOS 15
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or recording · 截图或录屏
+      description: Drag files here. Everything in this repository is public. · 把文件拖到这里。仓库里的内容都是公开的。
